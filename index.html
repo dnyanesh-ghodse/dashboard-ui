@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- font-awesome cdn -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Dashboard</title>
+</head>
+<body>
+    <nav>
+        <aside class="links">
+            <div class="logo">
+                <i class="fa fa-atom"></i>
+            </div>
+
+            <div class="nav__items">
+                <a href="#student">
+                <div class="item-icon">
+                    <i class="fa fa-user" ></i>
+                </div>
+                <div class="item-text">
+                    Student 
+                    </a>
+                </div>
+            </div>
+
+            <div class="nav__items">
+                <a href="#lesson" active>
+                <div class="item-icon">
+                    <i class="fa fa-book" ></i>
+                </div>
+                <div class="item-text">
+                     Lesson Plan 
+                    </a>
+                </div>
+            </div>
+
+            <div class="nav__items">
+                <a href="#setting"> 
+                <div class="item-icon">
+                    <i class="fa fa-cog" ></i>
+                </div>
+                <div class="item-text">
+                    Settings 
+                </a>
+                </div>
+            </div>
+            
+        </aside>
+    </nav>
+
+    <div class="container">
+        <section id="student">
+            <h1>student</h1>
+        </section>
+        <section id="lesson">
+            <div class="top"></div>
+            <div class="title">
+                <i class="fas fa-caret-left"></i> 
+                <span>Video</span>
+            </div>
+
+            <div class="search">
+                <input type="search" name="" id="" placeholder="Insert URL here">
+            </div>
+            <div class="or">or</div>
+            <div class="uploads">
+                <p class="upload_text">upload</p>
+                <input type="file" title=" " name="" id="upload" placeholder="upload" >
+            </div>
+        </section>
+        <section id="setting">
+            <h1>setting</h1>
+        </section>
+    </div>
+
+
+
+<script src="app.js"></script>
+</body>
+</html>
